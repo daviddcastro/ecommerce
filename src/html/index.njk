@@ -1,29 +1,10 @@
 {% extends "layouts/default.njk" %}
 
 {% block content %}
-<section class="container flex justify-around p-14">
-    <div>
-        <a href="">
-            <img src="/images/hombre.png" class="mb-10" alt="">
-            <span class="text-3xl font-bold ml-8">HOMBRE</span>
-        </a>
-    </div>
-    <div>
-        <a href="">
-            <img src="/images/mujer.png" class="mb-10" alt="">
-            <span class="text-3xl font-bold ml-6">MUJER</span>
-        </a>
-    </div>
-    <div>
-        <a href="">
-            <img src="/images/nino.png" class="mb-10" alt="">
-            <span class="text-3xl font-bold ml-20">NIÑO/A</span>
-        </a>
-    </div>
-</section>
+{% include "macros/banner.njk" %}
 
 <section class="container">
-    <p class="font-bold text-3xl text-center mt-32">MEJORES OFERTAS</p>
+    <p class="font-bold text-3xl text-center mt-20">MEJORES OFERTAS</p>
     <div class="flex justify-around mt-10 space-x-10">
         <a href="" class="bg-[#f5f5f5] rounded-lg">
             <img src="/images/blazer-low-jumbo.png" class="rounded-lg" alt="">
@@ -57,6 +38,34 @@
         </a>
     </div>
 </section>
+
+<section class="container flex justify-around mt-20 p-14">
+    <div>
+        <a href="">
+            <img src="/images/hombre.png" class="mb-10" alt="">
+            <span class="text-3xl font-bold ml-8">HOMBRE</span>
+        </a>
+    </div>
+    <div>
+        <a href="">
+            <img src="/images/mujer.png" class="mb-10" alt="">
+            <span class="text-3xl font-bold ml-6">MUJER</span>
+        </a>
+    </div>
+    <div>
+        <a href="">
+            <img src="/images/nino.png" class="mb-10" alt="">
+            <span class="text-3xl font-bold ml-20">NIÑO/A</span>
+        </a>
+    </div>
+</section>
+
+{% include "macros/banner.njk" %}
+
+<script type="module">
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'  
+    const swiper = new Swiper('.swiper')
+</script>
 {% endblock %}
 
 
