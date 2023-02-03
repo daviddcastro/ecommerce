@@ -1,7 +1,9 @@
 {% extends "layouts/default.njk" %}
 
 {% block content %}
-{% include "macros/banner.njk" %}
+<div class="mt-10 p-10">
+    {% include "macros/banner.njk" %}
+</div>
 
 <section class="container">
     <p class="font-bold text-3xl text-center mt-20">MEJORES OFERTAS</p>
@@ -41,7 +43,7 @@
 
 <section class="container flex justify-around mt-20 p-14">
     <div>
-        <a href="">
+        <a href="/categorias">
             <img src="/images/hombre.png" class="mb-10" alt="">
             <span class="text-3xl font-bold ml-8">HOMBRE</span>
         </a>
