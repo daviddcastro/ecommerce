@@ -2,10 +2,12 @@
 
 {% block content %}
 {% include "layouts/menu-categorias.njk" %}
-{% include "macros/banner.njk" %}
+<div class="p-20">
+    {% include "macros/banner.njk" %}
+</div>
 <section class="container mt-20">
     <div class="flex justify-around mt-10 space-x-10">
-        <a href="" class="bg-[#f5f5f5] rounded-lg">
+        <a href="/productos" class="bg-[#f5f5f5] rounded-lg">
             <img src="/images/blazer-low-jumbo.png" class="rounded-lg" alt="">
             <div class="p-5">
                 <p class="text-lg">Nike Blazer Low `77 Jumbo</p>
@@ -101,7 +103,7 @@
         </a>
     </div>
 </section>
-<div class="mt-20">
+<div class="p-20">
     {% include "macros/banner.njk" %}
 </div>
 <section class="container mt-20">
@@ -128,5 +130,8 @@
         </a>
     </div>
 </section>
-{% include "macros/ficha-producto.njk" %}
+<script type="module">
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'  
+    const swiper = new Swiper('.swiper')
+</script>
 {% endblock %}
