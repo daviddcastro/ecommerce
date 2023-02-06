@@ -1,10 +1,12 @@
-<a href="" class="bg-[#f5f5f5] rounded-lg">
-    <img src="{{ imagen }}" class="rounded-lg" alt="">
-    <div class="p-5">
-        <p class="text-lg">{{ producto }}</p>
-        <div class="flex text-lg mt-3">
-            <span class="text-gray-500 line-through">{{ precio }} €</span>
-            <span class="ml-10">{{ precioOferta }} €</span>
+{% macro producto(imagen, producto, precio, precioOferta) %}
+    <a href="" class="bg-[#f5f5f5] rounded-lg">
+        <img src="{{ imagen }}" class="rounded-lg" alt="">
+        <div class="p-5">
+            <p class="text-lg">{{ producto }}</p>
+            <div class="flex text-lg mt-3">
+                <span class="text-gray-500 line-through">{{ precio }} €</span>
+                <span class="ml-10">{{ precioOferta }} €</span>
+            </div>
         </div>
-    </div>
-</a>
+    </a>
+{% endmacro %}
