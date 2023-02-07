@@ -52,5 +52,17 @@ module.exports = [
         producto: "Nike React Miler 3" ,
         precio: "129,99" ,
         precioOferta: "77,97"
+    },
+    {
+        imagen: "/images/nike-tech.png" ,
+        producto: "Nike Sportswear Tech Fleece" ,
+        precio: "119,99" ,
+        precioOferta: "71,97"
+    },
+    {
+        imagen: "/images/blazer-plataform.png" ,
+        producto: "Nike Blazer Low Platform" ,
+        precio: "99,99" ,
+        precioOferta: "59,97"
     }
 ]
