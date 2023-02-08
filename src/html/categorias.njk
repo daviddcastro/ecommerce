@@ -1,13 +1,54 @@
+---
+pagination:
+    data: categorias
+    size: 1
+    alias: categoria
+permalink: "/{{ categoria.nombre | slug }}/index.html"    
+---
+
 {% extends "layouts/default.njk" %}
 
 {% block content %}
 {% include "layouts/menu-categorias.njk" %}
-<div class="p-20">
+{# <div class="p-20">
     {% include "macros/banner.njk" %}
-</div>
+</div> #}
+
+<h1>{{categoria.nombre}}</h1>
+<p>{{categoria.descripcion}}</p>
+<p class="font-bold">Categorías</p>
+<ul>
+{% for subcategoria in categoria.hijos %}
+    <li><a href="/{{subcategoria.nombre | slug}}">{{subcategoria.nombre}}</a></li>
+{% endfor %}
+<ul>
+<p class="font-bold">Filtros</p>
+{% for filtro in categoria.filtros %}
+    <h5>{{filtro.nombre}}</h5>
+    <ul>
+        {% for valor in filtro.valores %}
+        <li>{{valor}}</li>
+        {% endfor %}
+    </ul>
+{% endfor %}
+
 <section class="container mt-20">
-    <div class="flex justify-around mt-10 space-x-10">
-        <a href="/productos" class="bg-[#f5f5f5] rounded-lg">
+    <div class="grid grid-cols-3 mt-10 gap-4">
+        {% for producto in categoria.productos %}
+            <a href="/productos/{{producto.id}}/{{producto.nombre | slug}}" class="bg-[#f5f5f5] rounded-lg">
+                <img src="{{producto.imagen}}" class="rounded-lg" alt="{{producto.nombre}}">
+                <div class="p-5">
+                    <p class="text-lg">{{producto.nombre}}</p>
+                    <div class="flex text-lg mt-3">
+                        <span class="text-gray-500 line-through">{{producto.precio}} €</span>
+                        <span class="ml-10">{{producto.precioOferta}} €</span>
+                    </div>
+                </div>
+            </a>            
+        {% endfor %}
+    </div>
+    {# <div class="flex justify-around mt-10 space-x-10">
+        <a href="" class="bg-[#f5f5f5] rounded-lg">
             <img src="/images/blazer-low-jumbo.png" class="rounded-lg" alt="">
             <div class="p-5">
                 <p class="text-lg">Nike Blazer Low `77 Jumbo</p>
@@ -69,44 +110,12 @@
                 </div>
             </div>
         </a>
-    </div>
-    <div class="flex justify-around mt-10 space-x-10">
-        <a href="" class="bg-[#f5f5f5] rounded-lg">
-            <img src="/images/blazer-low-jumbo.png" class="rounded-lg" alt="">
-            <div class="p-5">
-                <p class="text-lg">Nike Blazer Low `77 Jumbo</p>
-                <div class="flex text-lg mt-3">
-                    <span class="text-gray-500 line-through">99,99 €</span>
-                    <span class="ml-10">59,97 €</span>
-                </div>
-            </div>
-        </a>
-        <a href="" class="bg-[#f5f5f5] rounded-lg">
-            <img src="/images/wearallday.png" class="rounded-lg" alt="">
-            <div class="p-5">
-                <p class="text-lg">Nike Wearallday</p>
-                <div class="flex text-lg mt-3">
-                    <span class="text-gray-500 line-through">69,99 €</span>
-                    <span class="ml-10">41,97 €</span>
-                </div>
-            </div>
-        </a>
-        <a href="" class="bg-[#f5f5f5] rounded-lg">
-            <img src="/images/pegasus-turbo.png" class="rounded-lg" alt="">
-            <div class="p-5">
-                <p class="text-lg">Nike Pegasus Turbo Next Nature</p>
-                <div class="flex text-lg mt-3">
-                    <span class="text-gray-500 line-through">159,99 €</span>
-                    <span class="ml-10">95,97 €</span>
-                </div>
-            </div>
-        </a>
-    </div>
+    </div> #}
 </section>
-<div class="p-20">
+{# <div class="p-20">
     {% include "macros/banner.njk" %}
-</div>
-<section class="container mt-20">
+</div> #}
+{# <section class="container mt-20">
     <div class="flex justify-around mt-10 space-x-10">
         <a href="" class="bg-[#f5f5f5] rounded-lg">
             <img src="/images/blazer-low-jumbo.png" class="rounded-lg" alt="">
@@ -129,7 +138,7 @@
             </div>
         </a>
     </div>
-</section>
+</section> #}
 <script type="module">
     import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'  
     const swiper = new Swiper('.swiper')
