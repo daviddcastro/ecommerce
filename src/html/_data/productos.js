@@ -17,14 +17,14 @@ module.exports = [
                         filtros: [{
                             id: 1 ,
                             nombre: "Talla" ,
-                            valores: ["XL" , "XXL"]
+                            valores: ["XL", "S" , "XXL"]
                         }]
                     }
                 ] ,
                 filtros: [{
                     id: 1 ,
                     nombre: "Talla" ,
-                    valores: ["XL" , "XXL"]
+                    valores: ["XL", "S" , "XXL"]
                 }]
             }
         ] ,
