@@ -4,8 +4,12 @@
         <div class="p-5">
             <p class="text-lg">{{ producto }}</p>
             <div class="flex text-lg mt-3">
-                <span class="text-gray-500 line-through">{{ precio }} €</span>
-                <span class="ml-10">{{ precioOferta }} €</span>
+                {% if not precioOferta %}
+                    <span class="text-gray-500 line-through">{{ precio }} €</span>
+                {% else %}
+                    <span class="text-gray-500 line-through">{{ precio }} €</span>
+                    <span class="ml-10">{{ precioOferta }} €</span>
+                {% endif %}
             </div>
         </div>
     </a>
