@@ -334,7 +334,17 @@ module.exports = [
         ] ,
         filtros: [{
             id: 1 ,
-            nombre: "Talla" ,
+            nombre: "Talla ropa" ,
+            valores: ["S", "M", "L", "XL", "XXL"]
+        } ,
+        {
+            id: 1 ,
+            nombre: "Talla zapatos" ,
+            valores: ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45"]
+        } ,
+        {
+            id: 1 ,
+            nombre: "Talla pantalones" ,
             valores: ["S", "M", "L", "XL", "XXL"]
         }]
     },

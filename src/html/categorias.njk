@@ -14,22 +14,23 @@ permalink: "/{{ categoria.nombre | slug }}/index.html"
     {% include "macros/banner.njk" %}
 </div> #}
 
-<div class="bg-white p-10">
-    <p class="font-bold">Categorías</p>
+<div class="bg-white p-10 flex">
+    {# <p class="font-bold">Categorías</p>
     <ul>
     {% for subcategoria in categoria.hijos %}
         <li><a href="/{{subcategoria.nombre | slug}}">{{subcategoria.nombre}}</a></li>
     {% endfor %}
-    <ul>
-    <p class="font-bold">Filtros</p>
-    {% for filtro in categoria.filtros %}
-        <h5>{{filtro.nombre}}</h5>
-        <ul class="flex space-x-4">
-            {% for valor in filtro.valores %}
-            <li>{{valor}}</li>
-            {% endfor %}
-        </ul>
-    {% endfor %}
+    <ul> #} 
+    <div class="block">
+        {% for filtro in categoria.filtros %}
+            <h5 class="font-bold text-lg">{{filtro.nombre}}</h5>
+            <ul class="flex space-x-4 mt-3">
+                {% for valor in filtro.valores %}
+                <li>{{valor}}</li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </div>
 </div>
 <h1 class="text-3xl font-bold mt-10 ml-20">{{categoria.nombre}}</h1>
 
