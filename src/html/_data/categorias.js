@@ -325,38 +325,357 @@ module.exports = [
                 nombre: "Camisetas hombre" ,
                 productos: [] ,
                 hijos: [] ,
-                filtros: [{
+                filtros: [
+                    {
                     id: 1 ,
                     nombre: "Talla" ,
                     valores: ["XL" , "XXL"]
                 }]
             }
         ] ,
-        filtros: [{
+        filtros: [
+            {
             id: 1 ,
             nombre: "Talla ropa" ,
             valores: ["S", "M", "L", "XL", "XXL"]
-        } ,
-        {
-            id: 1 ,
-            nombre: "Talla zapatos" ,
-            valores: ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45"]
-        } ,
-        {
-            id: 1 ,
-            nombre: "Talla pantalones" ,
-            valores: ["S", "M", "L", "XL", "XXL"]
-        }]
+            } ,
+            {
+                id: 2 ,
+                nombre: "Talla zapatos" ,
+                valores: ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45"]
+            } ,
+            {
+                id: 3 ,
+                nombre: "Talla pantalones" ,
+                valores: ["S", "M", "L", "XL", "XXL"]
+            }
+        ]
     },
     {
-        id: 1 ,
+        id: 2 ,
         nombre: "Mujer" ,
         descripcion: "Lorem ipsum",
-        productos: [] ,
+        productos: [
+            {
+                id: 1 ,
+                imagen: "/images/nike-hombre/air-force-1-low-retro/1.png" ,
+                nombre: "Nike Air Forcr 1 Low Retro" ,
+                descripcion: "Da el sí quiero (de nuevo) a unas zapatillas que querrás llevar para el resto de tu vida. Las Nike Air Force 1 Low Retro recuperan los materiales originales y mantienen todo lo que más te gusta: un diseño de piel clásica y la cantidad perfecta de estilo de baloncesto para rendir homenaje a un icono de la moda para el día a día. Ahora, incorporan un cepillo de limpieza para mantener un look impecable",
+                categoria: [
+                    {
+                        id: 1 ,
+                        nombre: "Mujer" ,
+                        productos: [] ,
+                        hijos: [
+                            {
+                                id: 1 ,
+                                nombre: "Mujer" ,
+                                productos: [] ,
+                                hijos: [] ,
+                                filtros: [{
+                                    id: 1 ,
+                                    nombre: "Talla" ,
+                                    valores: ["XL" , "XXL"]
+                                }]
+                            }
+                        ] ,
+                        filtros: [{
+                            id: 1 ,
+                            nombre: "Talla" ,
+                            valores: ["XL" , "XXL"]
+                        }]
+                    }
+                ] ,
+                galeria: ["/images/nike/-hombre/air-force-1-low-retro/2.png", "/images/nike/-hombre/air-force-1-low-retro/3.png", "/images/nike/-hombre/air-force-1-low-retro/4.png"] ,
+                precio: 149.99 ,
+                precioOferta: 119.97 ,
+                tallas: [36, 38, 38.5, 39, 43, 45]
+            } ,
+            {
+                id: 8 ,
+                imagen: "/images/nike-hombre/air-force-1-low-retro/1.png" ,
+                nombre: "Nike Air Forcr 1 Low Retro" ,
+                descripcion: "Da el sí quiero (de nuevo) a unas zapatillas que querrás llevar para el resto de tu vida. Las Nike Air Force 1 Low Retro recuperan los materiales originales y mantienen todo lo que más te gusta: un diseño de piel clásica y la cantidad perfecta de estilo de baloncesto para rendir homenaje a un icono de la moda para el día a día. Ahora, incorporan un cepillo de limpieza para mantener un look impecable",
+                categoria: [
+                    {
+                        id: 8 ,
+                        nombre: "Mujer" ,
+                        productos: [] ,
+                        hijos: [
+                            {
+                                id: 8 ,
+                                nombre: "Mujer" ,
+                                productos: [] ,
+                                hijos: [] ,
+                                filtros: [{
+                                    id: 8 ,
+                                    nombre: "Talla" ,
+                                    valores: ["XL" , "XXL"]
+                                }]
+                            }
+                        ] ,
+                        filtros: [{
+                            id: 8 ,
+                            nombre: "Talla" ,
+                            valores: ["XL" , "XXL"]
+                        }]
+                    }
+                ] ,
+                galeria: ["/images/nike/-hombre/air-force-1-low-retro/2.png", "/images/nike/-hombre/air-force-1-low-retro/3.png", "/images/nike/-hombre/air-force-1-low-retro/4.png"] ,
+                precio: 149.99 ,
+                precioOferta: 119.97 ,
+                tallas: [36, 38, 38.5, 39, 43, 45]
+            } ,
+            {
+                id: 8 ,
+                imagen: "/images/nike-hombre/air-force-1-low-retro/1.png" ,
+                nombre: "Nike Air Forcr 1 Low Retro" ,
+                descripcion: "Da el sí quiero (de nuevo) a unas zapatillas que querrás llevar para el resto de tu vida. Las Nike Air Force 1 Low Retro recuperan los materiales originales y mantienen todo lo que más te gusta: un diseño de piel clásica y la cantidad perfecta de estilo de baloncesto para rendir homenaje a un icono de la moda para el día a día. Ahora, incorporan un cepillo de limpieza para mantener un look impecable",
+                categoria: [
+                    {
+                        id: 8 ,
+                        nombre: "Mujer" ,
+                        productos: [] ,
+                        hijos: [
+                            {
+                                id: 8 ,
+                                nombre: "Mujer" ,
+                                productos: [] ,
+                                hijos: [] ,
+                                filtros: [{
+                                    id: 8 ,
+                                    nombre: "Talla" ,
+                                    valores: ["XL" , "XXL"]
+                                }]
+                            }
+                        ] ,
+                        filtros: [{
+                            id: 8 ,
+                            nombre: "Talla" ,
+                            valores: ["XL" , "XXL"]
+                        }]
+                    }
+                ] ,
+                galeria: ["/images/nike/-hombre/air-force-1-low-retro/2.png", "/images/nike/-hombre/air-force-1-low-retro/3.png", "/images/nike/-hombre/air-force-1-low-retro/4.png"] ,
+                precio: 149.99 ,
+                precioOferta: 119.97 ,
+                tallas: [36, 38, 38.5, 39, 43, 45]
+            } ,
+            {
+                id: 8 ,
+                imagen: "/images/nike-hombre/air-force-1-low-retro/1.png" ,
+                nombre: "Nike Air Forcr 1 Low Retro" ,
+                descripcion: "Da el sí quiero (de nuevo) a unas zapatillas que querrás llevar para el resto de tu vida. Las Nike Air Force 1 Low Retro recuperan los materiales originales y mantienen todo lo que más te gusta: un diseño de piel clásica y la cantidad perfecta de estilo de baloncesto para rendir homenaje a un icono de la moda para el día a día. Ahora, incorporan un cepillo de limpieza para mantener un look impecable",
+                categoria: [
+                    {
+                        id: 8 ,
+                        nombre: "Mujer" ,
+                        productos: [] ,
+                        hijos: [
+                            {
+                                id: 8 ,
+                                nombre: "Mujer" ,
+                                productos: [] ,
+                                hijos: [] ,
+                                filtros: [{
+                                    id: 8 ,
+                                    nombre: "Talla" ,
+                                    valores: ["XL" , "XXL"]
+                                }]
+                            }
+                        ] ,
+                        filtros: [{
+                            id: 8 ,
+                            nombre: "Talla" ,
+                            valores: ["XL" , "XXL"]
+                        }]
+                    }
+                ] ,
+                galeria: ["/images/nike/-hombre/air-force-1-low-retro/2.png", "/images/nike/-hombre/air-force-1-low-retro/3.png", "/images/nike/-hombre/air-force-1-low-retro/4.png"] ,
+                precio: 149.99 ,
+                precioOferta: 119.97 ,
+                tallas: [36, 38, 38.5, 39, 43, 45]
+            } ,
+            {
+                id: 8 ,
+                imagen: "/images/nike-hombre/air-force-1-low-retro/1.png" ,
+                nombre: "Nike Air Forcr 1 Low Retro" ,
+                descripcion: "Da el sí quiero (de nuevo) a unas zapatillas que querrás llevar para el resto de tu vida. Las Nike Air Force 1 Low Retro recuperan los materiales originales y mantienen todo lo que más te gusta: un diseño de piel clásica y la cantidad perfecta de estilo de baloncesto para rendir homenaje a un icono de la moda para el día a día. Ahora, incorporan un cepillo de limpieza para mantener un look impecable",
+                categoria: [
+                    {
+                        id: 8 ,
+                        nombre: "Mujer" ,
+                        productos: [] ,
+                        hijos: [
+                            {
+                                id: 8 ,
+                                nombre: "Mujer" ,
+                                productos: [] ,
+                                hijos: [] ,
+                                filtros: [{
+                                    id: 8 ,
+                                    nombre: "Talla" ,
+                                    valores: ["XL" , "XXL"]
+                                }]
+                            }
+                        ] ,
+                        filtros: [{
+                            id: 8 ,
+                            nombre: "Talla" ,
+                            valores: ["XL" , "XXL"]
+                        }]
+                    }
+                ] ,
+                galeria: ["/images/nike/-hombre/air-force-1-low-retro/2.png", "/images/nike/-hombre/air-force-1-low-retro/3.png", "/images/nike/-hombre/air-force-1-low-retro/4.png"] ,
+                precio: 149.99 ,
+                precioOferta: 119.97 ,
+                tallas: [36, 38, 38.5, 39, 43, 45]
+            } ,
+            {
+                id: 8 ,
+                imagen: "/images/nike-hombre/air-force-1-low-retro/1.png" ,
+                nombre: "Nike Air Forcr 1 Low Retro" ,
+                descripcion: "Da el sí quiero (de nuevo) a unas zapatillas que querrás llevar para el resto de tu vida. Las Nike Air Force 1 Low Retro recuperan los materiales originales y mantienen todo lo que más te gusta: un diseño de piel clásica y la cantidad perfecta de estilo de baloncesto para rendir homenaje a un icono de la moda para el día a día. Ahora, incorporan un cepillo de limpieza para mantener un look impecable",
+                categoria: [
+                    {
+                        id: 8 ,
+                        nombre: "Mujer" ,
+                        productos: [] ,
+                        hijos: [
+                            {
+                                id: 8 ,
+                                nombre: "Mujer" ,
+                                productos: [] ,
+                                hijos: [] ,
+                                filtros: [{
+                                    id: 8 ,
+                                    nombre: "Talla" ,
+                                    valores: ["XL" , "XXL"]
+                                }]
+                            }
+                        ] ,
+                        filtros: [{
+                            id: 8 ,
+                            nombre: "Talla" ,
+                            valores: ["XL" , "XXL"]
+                        }]
+                    }
+                ] ,
+                galeria: ["/images/nike/-hombre/air-force-1-low-retro/2.png", "/images/nike/-hombre/air-force-1-low-retro/3.png", "/images/nike/-hombre/air-force-1-low-retro/4.png"] ,
+                precio: 149.99 ,
+                precioOferta: 119.97 ,
+                tallas: [36, 38, 38.5, 39, 43, 45]
+            } ,
+            {
+                id: 8 ,
+                imagen: "/images/nike-hombre/air-force-1-low-retro/1.png" ,
+                nombre: "Nike Air Forcr 1 Low Retro" ,
+                descripcion: "Da el sí quiero (de nuevo) a unas zapatillas que querrás llevar para el resto de tu vida. Las Nike Air Force 1 Low Retro recuperan los materiales originales y mantienen todo lo que más te gusta: un diseño de piel clásica y la cantidad perfecta de estilo de baloncesto para rendir homenaje a un icono de la moda para el día a día. Ahora, incorporan un cepillo de limpieza para mantener un look impecable",
+                categoria: [
+                    {
+                        id: 8 ,
+                        nombre: "Mujer" ,
+                        productos: [] ,
+                        hijos: [
+                            {
+                                id: 8 ,
+                                nombre: "Mujer" ,
+                                productos: [] ,
+                                hijos: [] ,
+                                filtros: [{
+                                    id: 8 ,
+                                    nombre: "Talla" ,
+                                    valores: ["XL" , "XXL"]
+                                }]
+                            }
+                        ] ,
+                        filtros: [{
+                            id: 8 ,
+                            nombre: "Talla" ,
+                            valores: ["XL" , "XXL"]
+                        }]
+                    }
+                ] ,
+                galeria: ["/images/nike/-hombre/air-force-1-low-retro/2.png", "/images/nike/-hombre/air-force-1-low-retro/3.png", "/images/nike/-hombre/air-force-1-low-retro/4.png"] ,
+                precio: 149.99 ,
+                precioOferta: 119.97 ,
+                tallas: [36, 38, 38.5, 39, 43, 45]
+            } ,
+            {
+                id: 8 ,
+                imagen: "/images/nike-hombre/air-force-1-low-retro/1.png" ,
+                nombre: "Nike Air Forcr 1 Low Retro" ,
+                descripcion: "Da el sí quiero (de nuevo) a unas zapatillas que querrás llevar para el resto de tu vida. Las Nike Air Force 1 Low Retro recuperan los materiales originales y mantienen todo lo que más te gusta: un diseño de piel clásica y la cantidad perfecta de estilo de baloncesto para rendir homenaje a un icono de la moda para el día a día. Ahora, incorporan un cepillo de limpieza para mantener un look impecable",
+                categoria: [
+                    {
+                        id: 8 ,
+                        nombre: "Mujer" ,
+                        productos: [] ,
+                        hijos: [
+                            {
+                                id: 8 ,
+                                nombre: "Mujer" ,
+                                productos: [] ,
+                                hijos: [] ,
+                                filtros: [{
+                                    id: 8 ,
+                                    nombre: "Talla" ,
+                                    valores: ["XL" , "XXL"]
+                                }]
+                            }
+                        ] ,
+                        filtros: [{
+                            id: 8 ,
+                            nombre: "Talla" ,
+                            valores: ["XL" , "XXL"]
+                        }]
+                    }
+                ] ,
+                galeria: ["/images/nike/-hombre/air-force-1-low-retro/2.png", "/images/nike/-hombre/air-force-1-low-retro/3.png", "/images/nike/-hombre/air-force-1-low-retro/4.png"] ,
+                precio: 149.99 ,
+                precioOferta: 119.97 ,
+                tallas: [36, 38, 38.5, 39, 43, 45]
+            } ,
+            {
+                id: 8 ,
+                imagen: "/images/nike-hombre/air-force-1-low-retro/1.png" ,
+                nombre: "Nike Air Forcr 1 Low Retro" ,
+                descripcion: "Da el sí quiero (de nuevo) a unas zapatillas que querrás llevar para el resto de tu vida. Las Nike Air Force 1 Low Retro recuperan los materiales originales y mantienen todo lo que más te gusta: un diseño de piel clásica y la cantidad perfecta de estilo de baloncesto para rendir homenaje a un icono de la moda para el día a día. Ahora, incorporan un cepillo de limpieza para mantener un look impecable",
+                categoria: [
+                    {
+                        id: 8 ,
+                        nombre: "Mujer" ,
+                        productos: [] ,
+                        hijos: [
+                            {
+                                id: 8 ,
+                                nombre: "Mujer" ,
+                                productos: [] ,
+                                hijos: [] ,
+                                filtros: [{
+                                    id: 8 ,
+                                    nombre: "Talla" ,
+                                    valores: ["XL" , "XXL"]
+                                }]
+                            }
+                        ] ,
+                        filtros: [{
+                            id: 8 ,
+                            nombre: "Talla" ,
+                            valores: ["XL" , "XXL"]
+                        }]
+                    }
+                ] ,
+                galeria: ["/images/nike/-hombre/air-force-1-low-retro/2.png", "/images/nike/-hombre/air-force-1-low-retro/3.png", "/images/nike/-hombre/air-force-1-low-retro/4.png"] ,
+                precio: 149.99 ,
+                precioOferta: 119.97 ,
+                tallas: [36, 38, 38.5, 39, 43, 45]
+            }
+        ] ,
         hijos: [
             {
                 id: 1 ,
-                nombre: "Hombre" ,
+                nombre: "Mujer" ,
                 productos: [] ,
                 hijos: [] ,
                 filtros: [{
@@ -366,10 +685,22 @@ module.exports = [
                 }]
             }
         ] ,
-        filtros: [{
+        filtros: [
+            {
             id: 1 ,
-            nombre: "Talla" ,
-            valores: ["XL" , "XXL"]
-        }]
+            nombre: "Talla ropa" ,
+            valores: ["S", "M", "L", "XL", "XXL"]
+            } ,
+            {
+                id: 2 ,
+                nombre: "Talla zapatos" ,
+                valores: ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45"]
+            } ,
+            {
+                id: 3 ,
+                nombre: "Talla pantalones" ,
+                valores: ["S", "M", "L", "XL", "XXL"]
+            }
+        ]
     },    
 ]

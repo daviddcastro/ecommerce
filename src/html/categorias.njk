@@ -21,18 +21,20 @@ permalink: "/{{ categoria.nombre | slug }}/index.html"
         <li><a href="/{{subcategoria.nombre | slug}}">{{subcategoria.nombre}}</a></li>
     {% endfor %}
     <ul> #} 
-    <div class="">
+    <div class="flex justify-between container">
         {% for filtro in categoria.filtros %}
-            <h5 class="font-bold text-lg">{{filtro.nombre}}</h5>
-            <ul class="flex space-x-4 mt-3">
-                {% for valor in filtro.valores %}
-                <li>{{valor}}</li>
-                {% endfor %}
-            </ul>
+            <div class="">
+                <h5 class="font-bold text-lg mt-2">{{filtro.nombre}}</h5>
+                <ul class="flex space-x-4 mt-2">
+                    {% for valor in filtro.valores %}
+                    <li>{{valor}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
         {% endfor %}
     </div>
 </div>
-<h1 class="text-3xl font-bold mt-10 ml-20">{{categoria.nombre}}</h1>
+<h1 class="text-3xl font-bold mt-10 text-center">{{categoria.nombre}}</h1>
 
 <section class="container mt-20">
     <div class="grid grid-cols-3 mt-10 gap-4">
