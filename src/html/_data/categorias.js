@@ -260,7 +260,7 @@ module.exports = [
                         productos: [] ,
                         hijos: [
                             {
-                                id: 8 ,
+                                id: 8 , 
                                 nombre: "Hombre" ,
                                 productos: [] ,
                                 hijos: [] ,

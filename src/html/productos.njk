@@ -1,5 +1,54 @@
+---
+data: productos
+permalink: "/{{ producto.nombre | slug }}/index.html"
+---
 {% extends "layouts/default.njk" %}
 
 {% block content %}
-    {% include "macros/ficha-producto.njk" %}
+    <section class="mx-60 mt-20 flex">
+        {% for producto in productos %}
+            <div class="grid grid-cols-2">
+                <img class="w-[400px]" src="{{ producto.imagen }}" alt="">
+                <img class="w-[400px]" src="{{ producto.galeria }}" alt="">
+                <img class="w-[400px]" src="{{ producto.galeria }}" alt="">
+                <img class="w-[400px]" src="{{ producto.galeria }}" alt="">
+            </div>
+        {% endfor %}
+        <div class="block p-5">
+            <p class="text-3xl">{{ producto.nombre }}</p>
+            <div class="block text-xl mt-5">
+                <p class="text-gray-500 line-through">{{ producto.precio }} €</p>
+                <p>{{ producto.precioOferta }} €</p>
+            </div>
+            <p class="mt-10 text-lg">Selecciona tu talla</p>
+            <div class="block mt-3">
+                <div class="space-x-3">
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
+                </div>
+                <div class="mt-3 space-x-3">
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
+                </div>
+                <div class="mt-3 space-x-3">
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
+                </div>
+                <div class="mt-3 space-x-3">
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
+                </div>
+            </div>
+            <button class="bg-black text-white p-2 w-[270px] rounded-2xl mt-5 text-xl">Añadir a la cesta</button>
+            <button class="flex text-xl border-gray-500 border-2 rounded-2xl p-2 w-[270px] mt-4">
+                <span class="ml-16">Favorito</span>
+                <img class="w-6 ml-5" src="/images/favoritos.png" alt="">
+            </button>
+
+        </div>
+    </section>
 {% endblock %}
