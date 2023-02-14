@@ -1,19 +1,20 @@
 ---
-data: productos
-permalink: "/{{ producto.nombre | slug }}/index.html"
+pagination:
+    data: productos
+    size: 1
+    alias: producto
+permalink: "/{{ producto.categoria[0].nombre | slug }}/{{ producto.nombre | slug }}/index.html"
 ---
 {% extends "layouts/default.njk" %}
 
 {% block content %}
     <section class="mx-60 mt-20 flex">
-        {% for producto in productos %}
             <div class="grid grid-cols-2">
                 <img class="w-[400px]" src="{{ producto.imagen }}" alt="">
-                <img class="w-[400px]" src="{{ producto.galeria }}" alt="">
-                <img class="w-[400px]" src="{{ producto.galeria }}" alt="">
-                <img class="w-[400px]" src="{{ producto.galeria }}" alt="">
-            </div>
+        {% for imagen in producto.galeria %}
+                <img class="w-[400px]" src="{{ imagen }}" alt="">
         {% endfor %}
+            </div>
         <div class="block p-5">
             <p class="text-3xl">{{ producto.nombre }}</p>
             <div class="block text-xl mt-5">

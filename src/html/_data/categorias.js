@@ -6,8 +6,8 @@ module.exports = [
             {
                 id: 1,
                 imagen: "/images/nike-hombre/blazer-low-jumbo-77/1.png" ,
-                nombre: "Nike Blazer Low Jumbo '77" ,
-                descripcion: "Dicen que no vale la pena cambiar lo que ya funciona, y por nosotros bien. Las superestrellas clásicas del estilo urbano se renuevan en las Nike Blazer Low '77 Jumbo. Ofrecen el look clásico que más te gusta con un diseño Swoosh oversize y unos cordones enormes. Su lengüeta de espuma suave y las costuras más gruesas destacan el look icónico alabado por el estilo urbano desde el 77.",
+                nombre: "Nike Blazer Low Jumbo 77" ,
+                descripcion: "Dicen que no vale la pena cambiar lo que ya funciona, y por nosotros bien. Las superestrellas clásicas del estilo urbano se renuevan en las Nike Blazer Low 77 Jumbo. Ofrecen el look clásico que más te gusta con un diseño Swoosh oversize y unos cordones enormes. Su lengüeta de espuma suave y las costuras más gruesas destacan el look icónico alabado por el estilo urbano desde el 77.",
                 categoria: [
                     {
                         id: 1 ,
@@ -146,8 +146,8 @@ module.exports = [
             {
                 id: 5 , 
                 imagen: "/images/nike-hombre/blazer-mid-jumbo-77/1.png" ,
-                nombre: "Nike Blazer Mid Jumbo '77" ,
-                descripcion: "Alabadas por muchos por su aspecto y su sensación de resistencia, el básico de armario se actualiza con las Nike Blazer Mid ' 77 Jumbo.Aprovecha el look clásico que más te gusta, que ahora cuenta con un talón elástico con textura de pana y unas presillas grandes para que puedas ponértelas y quitártelas fácilmente.El diseño Swoosh extragrande y los cordones enormes añaden un toque divertido" ,
+                nombre: "Nike Blazer Mid Jumbo 77" ,
+                descripcion: "Alabadas por muchos por su aspecto y su sensación de resistencia, el básico de armario se actualiza con las Nike Blazer Mid  77 Jumbo.Aprovecha el look clásico que más te gusta, que ahora cuenta con un talón elástico con textura de pana y unas presillas grandes para que puedas ponértelas y quitártelas fácilmente.El diseño Swoosh extragrande y los cordones enormes añaden un toque divertido" ,
                 categoria: [
                     {
                         id: 5 ,
@@ -216,7 +216,7 @@ module.exports = [
             {
                 id: 7 ,
                 imagen: "/images/nike-hombre/air-more-uptempo-96/1.png" ,
-                nombre: "Nike Air More Uptempo '96" ,
+                nombre: "Nike Air More Uptempo 96" ,
                 descripcion: "El diseño atrevido y llamativo es exclusivo del estilo A-I-R. Con un diseño inspirado en el baloncesto de altos vuelos y el arte del grafiti de los 90, estas zapatillas son el centro de atención. Además, las unidades Max Air del talón, el antepié y el mediopié proporcionan una amortiguación cómoda para que tu aspecto esté a la par de tu comodidad" ,
                 categoria: [
                     {
