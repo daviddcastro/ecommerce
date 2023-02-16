@@ -98,12 +98,12 @@ module.exports = [
         ] ,
         galeria: ["/images/nike-hombre/pegasus-turbo-next-nature/2.png", "/images/nike-hombre/pegasus-turbo-next-nature/3.png", "/images/nike-hombre/pegasus-turbo-next-nature/4.png"] ,
         precio: 159.99 ,
-        precioOferta: "" ,
+        precioOferta: 119.99 ,
         tallas: [39, 40, 42, 43, 44, 46, 47] 
     },
     {
         imagen: "/images/nike-hombre/blazer-mid-jumbo-77/1.png" ,
-        nombre: "Nike Blazer Mid Jumbo '77" ,
+        nombre: "Nike Blazer Mid Jumbo 77" ,
         descripcion: "Alabadas por muchos por su aspecto y su sensación de resistencia, el básico de armario se actualiza con las Nike Blazer Mid ' 77 Jumbo.Aprovecha el look clásico que más te gusta, que ahora cuenta con un talón elástico con textura de pana y unas presillas grandes para que puedas ponértelas y quitártelas fácilmente.El diseño Swoosh extragrande y los cordones enormes añaden un toque divertido" ,
         categoria: [
             {
@@ -204,8 +204,8 @@ module.exports = [
         tallas: [38, 40, 42.5, 43, 44, 45, 47] 
     },
     {
-        imagen: "/images/nike-hombre/air-more-uptempo-96/1" ,
-        nombre: "Nike Air More Uptempo '96" ,
+        imagen: "/images/nike-hombre/air-more-uptempo-96/1.png" ,
+        nombre: "Nike Air More Uptempo 96" ,
         descripcion: "El diseño atrevido y llamativo es exclusivo del estilo A-I-R. Con un diseño inspirado en el baloncesto de altos vuelos y el arte del grafiti de los 90, estas zapatillas son el centro de atención. Además, las unidades Max Air del talón, el antepié y el mediopié proporcionan una amortiguación cómoda para que tu aspecto esté a la par de tu comodidad" ,
         categoria: [
             {
@@ -232,7 +232,7 @@ module.exports = [
                 }]
             }
         ] ,
-        galeria: ["/images/nike-hombre/air-more-uptempo-96/2", "/images/nike-hombre/air-more-uptempo-96/3", "/images/nike-hombre/air-more-uptempo-96/4"],
+        galeria: ["/images/nike-hombre/air-more-uptempo-96/2.png", "/images/nike-hombre/air-more-uptempo-96/3.png", "/images/nike-hombre/air-more-uptempo-96/4.png"],
         precio: 179.99 ,
         precioOferta: 107.97 ,
         tallas: [42.5, 43, 45, 46, 48] 
@@ -341,7 +341,7 @@ module.exports = [
     },
     {
         imagen: "/images/nike-hombre/air-force-1-07/1.png" ,
-        nombre: "Nike Air Force 1 '07" ,
+        nombre: "Nike Air Force 1 07" ,
         descripcion: "No hay nada más legendario que este modelo. Diseñadas para ser el centro de atención, las Nike Air Force 1 '07 combinan comodidad en el parqué con un estilo fuera de la cancha. La parte superior de piel impecable ofrece un look elegante y moderno, y los logotipos Swoosh brillantes aportan un look casi iridiscente para añadir la cantidad perfecta de brillo. Son un modelo increíble" ,
         categoria: [
             {
@@ -409,7 +409,7 @@ module.exports = [
     },
     {
         imagen: "/images/nike-mujer/blazer-mid-77-vintage/1.png" ,
-        nombre: "Nike Blazer Mid '77 Vintage" ,
+        nombre: "Nike Blazer Mid 77 Vintage" ,
         descripcion: "Al estilo de los años 70. Aclamadas en los 80. Un clásico de los 90. Listas para el futuro. Las Nike Blazer Mid '77 Vintage ofrecen un diseño atemporal y muy cómodo. La parte superior de piel increíblemente impecable combina perfectamente con un llamativo logotipo retro y unos detalles de ante exquisitos para ofrecer una sensación premium. La espuma expuesta en la lengüeta y el acabado de la mediasuela especial hacen que parezca que han salido de los libros de historia. Adelante, perfecciona tu look" ,
         categoria: [
             {

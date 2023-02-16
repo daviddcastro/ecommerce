@@ -3,16 +3,16 @@ pagination:
     data: productos
     size: 1
     alias: producto
-permalink: "/{{ producto.categoria[0].nombre | slug }}/{{ producto.nombre | slug }}/index.html"
+permalink: "/{{ producto.categoria[0].nombre | slug }}/{{ producto.nombre | slug }}/index.html" 
 ---
 {% extends "layouts/default.njk" %}
 
 {% block content %}
     <section class="mx-60 mt-20 flex">
             <div class="grid grid-cols-2">
-                <img class="w-[400px]" src="{{ producto.imagen }}" alt="">
+                <img class="w-[400px] ml-3 mt-3" src="{{ producto.imagen }}" alt="">
         {% for imagen in producto.galeria %}
-                <img class="w-[400px]" src="{{ imagen }}" alt="">
+                <img class="w-[400px] ml-3 mt-3" src="{{ imagen }}" alt="">
         {% endfor %}
             </div>
         <div class="block p-5">
@@ -24,24 +24,24 @@ permalink: "/{{ producto.categoria[0].nombre | slug }}/{{ producto.nombre | slug
             <p class="mt-10 text-lg">Selecciona tu talla</p>
             <div class="block mt-3">
                 <div class="space-x-3">
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[0] }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[1] }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[2] }}</button>
                 </div>
                 <div class="mt-3 space-x-3">
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[3] }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[4] }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[5] }}</button>
                 </div>
                 <div class="mt-3 space-x-3">
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[7] }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[8] }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[9] }}</button>
                 </div>
                 <div class="mt-3 space-x-3">
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[10] }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[11] }}</button>
+                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[12] }}</button>
                 </div>
             </div>
             <button class="bg-black text-white p-2 w-[270px] rounded-2xl mt-5 text-xl">Añadir a la cesta</button>
@@ -49,7 +49,6 @@ permalink: "/{{ producto.categoria[0].nombre | slug }}/{{ producto.nombre | slug
                 <span class="ml-16">Favorito</span>
                 <img class="w-6 ml-5" src="/images/favoritos.png" alt="">
             </button>
-
         </div>
     </section>
 {% endblock %}

@@ -702,5 +702,5 @@ module.exports = [
                 valores: ["S", "M", "L", "XL", "XXL"]
             }
         ]
-    },    
+    }
 ]

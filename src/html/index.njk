@@ -8,36 +8,18 @@
 <section class="container">
     <p class="font-bold text-3xl text-center mt-20">MEJORES OFERTAS</p>
     <div class="flex justify-around mt-10 space-x-10">
-        <a href="" class="bg-[#f5f5f5] rounded-lg">
-            <img src="/images/blazer-low-jumbo.png" class="rounded-lg" alt="">
-            <div class="p-5">
-                <p class="text-lg">Nike Blazer Low `77 Jumbo</p>
-                <div class="flex text-lg mt-3">
-                    <span class="text-gray-500 line-through">99,99 €</span>
-                    <span class="ml-10">59,97 €</span>
+        {% for oferta in ofertas %}
+            <a href="/{{ oferta.categoria | slug }}/{{ oferta.producto | slug }}/" class="bg-[#f5f5f5] rounded-lg">
+                <img src="{{ oferta.imagen }}" class="rounded-lg" alt="">
+                <div class="p-5">
+                    <p class="text-lg">{{ oferta.producto }}</p>
+                    <div class="flex text-lg mt-3">
+                        <span class="text-gray-500 line-through">{{ oferta.precio }} €</span>
+                        <span class="ml-10">{{ oferta.precioOferta }} €</span>
+                    </div>
                 </div>
-            </div>
-        </a>
-        <a href="" class="bg-[#f5f5f5] rounded-lg">
-            <img src="/images/wearallday.png" class="rounded-lg" alt="">
-            <div class="p-5">
-                <p class="text-lg">Nike Wearallday</p>
-                <div class="flex text-lg mt-3">
-                    <span class="text-gray-500 line-through">69,99 €</span>
-                    <span class="ml-10">41,97 €</span>
-                </div>
-            </div>
-        </a>
-        <a href="" class="bg-[#f5f5f5] rounded-lg">
-            <img src="/images/pegasus-turbo.png" class="rounded-lg" alt="">
-            <div class="p-5">
-                <p class="text-lg">Nike Pegasus Turbo Next Nature</p>
-                <div class="flex text-lg mt-3">
-                    <span class="text-gray-500 line-through">95,97 €</span>
-                    <span class="ml-10">159,99 €</span>
-                </div>
-            </div>
-        </a>
+            </a>
+        {% endfor %}
     </div>
 </section>
 
