@@ -9,12 +9,12 @@ permalink: "/{{ producto.categoria[0].nombre | slug }}/{{ producto.nombre | slug
 
 {% block content %}
     <section class="mx-60 mt-20 flex">
-            <div class="grid grid-cols-2">
-                <img class="w-[400px] ml-3 mt-3" src="{{ producto.imagen }}" alt="">
-        {% for imagen in producto.galeria %}
+        <div class="grid grid-cols-2">
+            <img class="w-[400px] ml-3 mt-3" src="{{ producto.imagen }}" alt="">
+            {% for imagen in producto.galeria %}
                 <img class="w-[400px] ml-3 mt-3" src="{{ imagen }}" alt="">
-        {% endfor %}
-            </div>
+            {% endfor %}
+        </div>
         <div class="block p-5">
             <p class="text-3xl">{{ producto.nombre }}</p>
             <div class="block text-xl mt-5">
@@ -51,4 +51,7 @@ permalink: "/{{ producto.categoria[0].nombre | slug }}/{{ producto.nombre | slug
             </button>
         </div>
     </section>
+    <div class="mt-10 mx-[300px] w-[700px]">
+        <p>{{ producto.descripcion }}</p>
+    </div>
 {% endblock %}
