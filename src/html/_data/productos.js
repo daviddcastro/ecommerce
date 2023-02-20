@@ -239,7 +239,7 @@ module.exports = [
     },
     {
         imagen: "/images/nike-hombre/air-force-1-low-retro/1.png" ,
-        nombre: "Nike Air Forcr 1 Low Retro" ,
+        nombre: "Nike Air Force 1 Low Retro" ,
         descripcion: "Da el sí quiero (de nuevo) a unas zapatillas que querrás llevar para el resto de tu vida. Las Nike Air Force 1 Low Retro recuperan los materiales originales y mantienen todo lo que más te gusta: un diseño de piel clásica y la cantidad perfecta de estilo de baloncesto para rendir homenaje a un icono de la moda para el día a día. Ahora, incorporan un cepillo de limpieza para mantener un look impecable",
         categoria: [
             {
@@ -541,6 +541,210 @@ module.exports = [
         galeria: ["/images/nike-mujer/zoom-fly-5/2.png", "/images/nike-mujer/zoom-fly-5/3.png", "/images/nike-mujer/zoom-fly-5/4.png"] ,
         precio: 159.99 ,
         precioOferta: 111.97 ,
+        tallas: [35.5, 36, 36.5, 38, 39, 40, 40.5] 
+    } ,
+    {
+        imagen: "/images/nike-mujer/alphafly-2/1.png" ,
+        nombre: "Nike Alphafly 2" ,
+        descripcion: "Cuando des un par de zancadas con las Nike Alphafly 2, nunca volverás a ver tus zapatillas de competición favoritas del mismo modo. Estos cohetes se han diseñado para reducir tu tiempo personal sin sacrificar la base que necesitas para llegar más lejos. El grueso y ligero sistema de sujeción ofrece comodidad y velocidad en una combinación clásica del running. Disfruta del mayor retorno de energía de todas nuestras zapatillas de competición mientras te esfuerzas por alcanzar tu mejor marca y arrollar a la competencia.",
+        categoria: [
+            {
+                id: 1 ,
+                nombre: "Hombre" ,
+                productos: [] ,
+                hijos: [
+                    {
+                        id: 1 ,
+                        nombre: "Hombre" ,
+                        productos: [] ,
+                        hijos: [] ,
+                        filtros: [{
+                            id: 1 ,
+                            nombre: "Talla" ,
+                            valores: ["XL" , "XXL"]
+                        }]
+                    }
+                ] ,
+                filtros: [{
+                    id: 1 ,
+                    nombre: "Talla" ,
+                    valores: ["XL" , "XXL"]
+                }]
+            }
+        ] ,
+        galeria: ["/images/nike-mujer/alphafly-2/2.png", "/images/nike-mujer/alphafly-2/3.png", "/images/nike-mujer/alphafly-2/4.png"] ,
+        precio: 299.99 ,
+        precioOferta: 179.97 ,
+        tallas: [35.5, 36, 36.5, 38, 39, 40, 40.5] 
+    } ,
+    {
+        imagen: "/images/nike-mujer/air-max-2090/1.png" ,
+        nombre: "Nike Air Max 2090" ,
+        descripcion: "Lleva el pasado al futuro con las Nike Air Max 2090. Inspiradas en las icónicas Air Max 90, las 2090 cuentan con amortiguación Nike Air en la planta del pie, que añade una comodidad sin igual, y la parte superior de malla transparente se combina con las características originales y atemporales para ofrecer un look vanguardista.",
+        categoria: [
+            {
+                id: 1 ,
+                nombre: "Hombre" ,
+                productos: [] ,
+                hijos: [
+                    {
+                        id: 1 ,
+                        nombre: "Hombre" ,
+                        productos: [] ,
+                        hijos: [] ,
+                        filtros: [{
+                            id: 1 ,
+                            nombre: "Talla" ,
+                            valores: ["XL" , "XXL"]
+                        }]
+                    }
+                ] ,
+                filtros: [{
+                    id: 1 ,
+                    nombre: "Talla" ,
+                    valores: ["XL" , "XXL"]
+                }]
+            }
+        ] ,
+        galeria: ["/images/nike-mujer/air-max-2090/2.png", "/images/nike-mujer/air-max-2090/3.png", "/images/nike-mujer/air-max-2090/4.png"] ,
+        precio: 149.99 ,
+        precioOferta: 74.97 ,
+        tallas: [35.5, 36, 36.5, 38, 39, 40, 40.5] 
+    } ,
+    {
+        imagen: "/images/nike-mujer/free-metcon-4/1.png" ,
+        nombre: "Nike Free Metcon 4" ,
+        descripcion: "Las Nike Free Metcon 4 combinan flexibilidad y estabilidad para aprovechar al máximo tu sesión de entrenamiento. La malla actualizada con patrón gráfico tipo cadena ofrece frescura y flexibilidad al aumentar la velocidad en los ejercicios de agilidad, y la sujeción del mediopié y el talón ofrecen apoyo en las sesiones más intensas con peso.",
+        categoria: [
+            {
+                id: 1 ,
+                nombre: "Hombre" ,
+                productos: [] ,
+                hijos: [
+                    {
+                        id: 1 ,
+                        nombre: "Hombre" ,
+                        productos: [] ,
+                        hijos: [] ,
+                        filtros: [{
+                            id: 1 ,
+                            nombre: "Talla" ,
+                            valores: ["XL" , "XXL"]
+                        }]
+                    }
+                ] ,
+                filtros: [{
+                    id: 1 ,
+                    nombre: "Talla" ,
+                    valores: ["XL" , "XXL"]
+                }]
+            }
+        ] ,
+        galeria: ["/images/nike-mujer/free-metcon-4/2.png", "/images/nike-mujer/free-metcon-4/3.png", "/images/nike-mujer/free-metcon-4/4.png"] ,
+        precio: 119.99 ,
+        precioOferta: 83.97 ,
+        tallas: [35.5, 36, 36.5, 38, 39, 40, 40.5] 
+    } ,
+    {
+        imagen: "/images/jordan-mujer/air-200E/1.png" ,
+        nombre: "Jordan Air 200E" ,
+        descripcion: "Diseñadas para recorrer las calles durante todo el día con comodidad y actitud, las Jordan Air 200E mezclan tecnología abierta con materiales duraderos, al tiempo que se mantienen fieles al ADN de la franquicia Jordan. La silueta de perfil bajo se combina con geometría visual y Max Air para ofrecer una pisada elegante y versátil",
+        categoria: [
+            {
+                id: 1 ,
+                nombre: "Hombre" ,
+                productos: [] ,
+                hijos: [
+                    {
+                        id: 1 ,
+                        nombre: "Hombre" ,
+                        productos: [] ,
+                        hijos: [] ,
+                        filtros: [{
+                            id: 1 ,
+                            nombre: "Talla" ,
+                            valores: ["XL" , "XXL"]
+                        }]
+                    }
+                ] ,
+                filtros: [{
+                    id: 1 ,
+                    nombre: "Talla" ,
+                    valores: ["XL" , "XXL"]
+                }]
+            }
+        ] ,
+        galeria: ["/images/jordan-mujer/air-200E/2.png", "/images/jordan-mujer/air-200E/3.png", "/images/jordan-mujer/air-200E/4.png"] ,
+        precio: 134.99 ,
+        precioOferta: 67.47 ,
+        tallas: [35.5, 36, 36.5, 38, 39, 40, 40.5] 
+    } ,
+    {
+        imagen: "/images/nike-mujer/air-max-90-g-nrg/1.png" ,
+        nombre: "Nike Air Max 90 G NRG" ,
+        descripcion: "Entra en el campo con el estilo y la funcionalidad atemporales de las Nike Air Max 90 G NRG. Combinan la esencia de las AM90 originales con varias actualizaciones diseñadas específicamente para el green, como el patrón de tracción y un revestimiento fino que mantiene el agua a raya.",
+        categoria: [
+            {
+                id: 1 ,
+                nombre: "Hombre" ,
+                productos: [] ,
+                hijos: [
+                    {
+                        id: 1 ,
+                        nombre: "Hombre" ,
+                        productos: [] ,
+                        hijos: [] ,
+                        filtros: [{
+                            id: 1 ,
+                            nombre: "Talla" ,
+                            valores: ["XL" , "XXL"]
+                        }]
+                    }
+                ] ,
+                filtros: [{
+                    id: 1 ,
+                    nombre: "Talla" ,
+                    valores: ["XL" , "XXL"]
+                }]
+            }
+        ] ,
+        galeria: ["/images/nike-mujer/air-max-90-g-nrg/2.png", "/images/nike-mujer/air-max-90-g-nrg/3.png", "/images/nike-mujer/air-max-90-g-nrg/4.png"] ,
+        precio: 169.99 ,
+        precioOferta: 101.97 ,
+        tallas: [35.5, 36, 36.5, 38, 39, 40, 40.5] 
+    } ,
+    {
+        imagen: "/images/nike-mujer/quest-4-premium/1.png" ,
+        nombre: "Nike Quest 4 Premium" ,
+        descripcion: "Las Nike Quest 4 Premium siguen en busca de la velocidad.Toma las calles gracias a la espuma elevada y a la comodidad amortiguada que combinan con una parte superior ligera para ofrecer una sujeción segura.Los detalles intuitivos hacen de este modelo un básico para el día a día.",
+        categoria: [
+            {
+                id: 1 ,
+                nombre: "Hombre" ,
+                productos: [] ,
+                hijos: [
+                    {
+                        id: 1 ,
+                        nombre: "Hombre" ,
+                        productos: [] ,
+                        hijos: [] ,
+                        filtros: [{
+                            id: 1 ,
+                            nombre: "Talla" ,
+                            valores: ["XL" , "XXL"]
+                        }]
+                    }
+                ] ,
+                filtros: [{
+                    id: 1 ,
+                    nombre: "Talla" ,
+                    valores: ["XL" , "XXL"]
+                }]
+            }
+        ] ,
+        galeria: ["/images/nike-mujer/quest-4-premium/2.png", "/images/nike-mujer/quest-4-premium/3.png", "/images/nike-mujer/quest-4-premium/4.png"] ,
+        precio: 74.99 ,
+        precioOferta: 52.47 ,
         tallas: [35.5, 36, 36.5, 38, 39, 40, 40.5] 
     }
 ]
