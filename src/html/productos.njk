@@ -22,27 +22,10 @@ permalink: "/{{ producto.categoria[0].nombre | slug }}/{{ producto.nombre | slug
                 <p>{{ producto.precioOferta }} €</p>
             </div>
             <p class="mt-10 text-lg">Selecciona tu talla</p>
-            <div class="block mt-3">
-                <div class="space-x-3">
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[0] }}</button>
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[1] }}</button>
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[2] }}</button>
-                </div>
-                <div class="mt-3 space-x-3">
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[3] }}</button>
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[4] }}</button>
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[5] }}</button>
-                </div>
-                <div class="mt-3 space-x-3">
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[7] }}</button>
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[8] }}</button>
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[9] }}</button>
-                </div>
-                <div class="mt-3 space-x-3">
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[10] }}</button>
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[11] }}</button>
-                    <button class="bg-white rounded-lg p-1 w-20">EU {{ producto.tallas[12] }}</button>
-                </div>
+            <div class="grid grid-cols-3 mt-2">
+                {% for talla in producto.tallas %}
+                    <button class="bg-white rounded-lg p-1 w-20 mt-3">EU {{ talla }}</button>
+                {% endfor %} 
             </div>
             <button class="bg-black text-white p-2 w-[270px] rounded-2xl mt-5 text-xl">Añadir a la cesta</button>
             <button class="flex text-xl border-gray-500 border-2 rounded-2xl p-2 w-[270px] mt-4">
