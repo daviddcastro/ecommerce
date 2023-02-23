@@ -14,43 +14,44 @@ permalink: "/{{ categoria.nombre | slug }}/index.html"
     {% include "macros/banner.njk" %}
 </div> #}
 
-<div class="bg-white p-5">
-    {# <p class="font-bold">Categorías</p>
+{# <div class="p-20">
+ { <div class="bg-white p-5">
+     <p class="font-bold">Categorías</p>
     <ul>
     {% for subcategoria in categoria.hijos %}
         <li><a href="/{{subcategoria.nombre | slug}}">{{subcategoria.nombre}}</a></li>
     {% endfor %}
-    <ul> #} 
+    <ul>  
     <div class="flex justify-between container">
         {% for filtro in categoria.filtros %}
             <div class="">
-                <h5 class="font-bold text-lg mt-2">{{filtro.nombre}}</h5>
+                <h5 class="font-bold text-lg mt-2">{{ filtro.nombre }}</h5>
                 <ul class="flex space-x-4 mt-2">
                     {% for valor in filtro.valores %}
-                    <li>{{valor}}</li>
+                    <li>{{ valor }}</li>
                     {% endfor %}
                 </ul>
             </div>
         {% endfor %}
     </div>
-</div>
-<h1 class="text-3xl font-bold mt-10 text-center">{{categoria.nombre}}</h1>
+</div> #}
+
+<h1 class="text-3xl font-bold mt-10 text-center">{{ categoria.nombre }}</h1>
 
 <section class="container mt-20">
     <div class="grid grid-cols-3 mt-10 gap-4">
-        {% for producto in productos %}
-            {% if (producto.categoria[0].id == categoria.id) %}
+        {% for producto in categoria.productos %}
             <a href="/{{ producto.categoria[0].nombre | slug }}/{{ producto.nombre | slug }}/" class="bg-[#f5f5f5] rounded-lg">
-                <img src="{{producto.imagen}}" class="rounded-lg" alt="{{producto.nombre}}">
+                <img src="{{ producto.imagen.url }}" class="rounded-lg" alt="{{ producto.nombre }}">
                 <div class="p-5">
-                    <p class="text-lg">{{producto.nombre}}</p>
+                    <p class="text-lg">{{ producto.nombre }}</p>
                     <div class="flex text-lg mt-3">
-                        <span class="text-gray-500 line-through">{{producto.precio}} €</span>
-                        <span class="ml-10">{{producto.precioOferta}} €</span>
+                        <span class="text-gray-500 line-through">{{ producto.precio }} €</span>
+                        <span class="ml-10">{{ producto.precioOferta }} €</span>
                     </div>
                 </div>
             </a>            
-            {% endif %}
+       
         {% endfor %}
     </div>
     {# <div class="flex justify-around mt-10 space-x-10">

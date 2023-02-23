@@ -3,12 +3,426 @@
     "id": "63ee1927b5f4d6000803f5d0",
     "imagen": null,
     "nombre": "Hombre",
-    "productos": []
+    "productos": [
+      {
+        "descripcion": "Dicen que no vale la pena cambiar lo que ya funciona, y por nosotros bien. Las superestrellas clásicas del estilo urbano se renuevan en las Nike Blazer Low '77 Jumbo. Ofrecen el look clásico que más te gusta con un diseño Swoosh oversize y unos cordones enormes. Su lengüeta de espuma suave y las costuras más gruesas destacan el look icónico alabado por el estilo urbano desde el 77",
+        "id": "63ee1871866e3800087c2dba",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/hHY5rQAh1c/1.png"
+        },
+        "nombre": "Nike Blazer Low Jumbo 77",
+        "precio": 99.99,
+        "precioOferta": 54.97,
+        "tallas": [
+          "35",
+          "39",
+          "41",
+          "43",
+          "44",
+          "46",
+          "47"
+        ]
+      },
+      {
+        "descripcion": "¿Qué se sentiría al llevar un par de nubes atadas a los pies? No podemos saberlo, pero creemos que Nike Wearallday están bastante cerca. Con un acolchado suave alrededor del tobillo, una lengüeta gruesa y acolchada, y una espuma increíblemente suave en la planta del pie, estas zapatillas de inspiración deportiva son la encarnación de la comodidad. La malla de la parte superior aporta una transpirabilidad duradera y la suela exterior de goma con diseño tipo gofre proporciona tracción durante todo el día",
+        "id": "63ee19e5866e3800087c2e44",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/4vGKztb3oM/1.png"
+        },
+        "nombre": "Nike Wearallday",
+        "precio": 69.99,
+        "precioOferta": 41.97,
+        "tallas": [
+          "37",
+          "38",
+          "40",
+          "42",
+          "43",
+          "46",
+          "47"
+        ]
+      },
+      {
+        "descripcion": "Deja que este Pegaso te impulse durante los momentos más complicados de la carrera. Con una espuma reciclada, más ligera y reactiva y una parte superior de plumas, este modelo está confeccionado para aumentar el ritmo sin sacrificar la comodidad mientras alcanzas tu mejor marca personal. Este modelo inmortal está confeccionado de manera responsable con, al menos, un 50 % de material reciclado por peso, para mantener su filosofía de eficacia demostrada para el día a día",
+        "id": "63ee1a4fb5f4d6000803f61d",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/0N3Pn6Wz2-/1.png"
+        },
+        "nombre": "Nike Pegasus Turbo Next Nature",
+        "precio": 159.99,
+        "precioOferta": 119.99,
+        "tallas": [
+          "37",
+          "39",
+          "41",
+          "42",
+          "43",
+          "44",
+          "46",
+          "48"
+        ]
+      },
+      {
+        "descripcion": "Alabadas por muchos por su aspecto y su sensación de resistencia, el básico de armario se actualiza con las Nike Blazer Mid ' 77 Jumbo.Aprovecha el look clásico que más te gusta, que ahora cuenta con un talón elástico con textura de pana y unas presillas grandes para que puedas ponértelas y quitártelas fácilmente.El diseño Swoosh extragrande y los cordones enormes añaden un toque divertido",
+        "id": "63ee1ab8866e3800087c2e81",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/Rz_d1yyLMU/1.png"
+        },
+        "nombre": "Nike Blazer Mid Jumbo 77",
+        "precio": 109.99,
+        "precioOferta": 65.97,
+        "tallas": [
+          "36",
+          "37",
+          "40",
+          "41",
+          "43",
+          "44",
+          "45",
+          "46"
+        ]
+      },
+      {
+        "descripcion": "Los looks Max, con sensación Max. Las Air Max SYSTM recuperan todo lo que te gustan de tu rollo favorito de los 80 (sin el pantalón de paracaídas). La amortiguación Nike Air probada y visible se combina con una parte superior elegante inspirada en el deporte. Air Max cumple de nuevo",
+        "id": "63f32c906c5f540008e8c373",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/ugWip9Sx9e/1.png"
+        },
+        "nombre": "Nike Air Max SYSTM",
+        "precio": 99.99,
+        "precioOferta": 59.97,
+        "tallas": [
+          "36",
+          "38",
+          "39",
+          "42",
+          "43",
+          "44",
+          "47"
+        ]
+      },
+      {
+        "descripcion": "Diseñadas para adaptarse a los pies y ofrecer mayor comodidad, las Nike Air Huarache recuperan un modelo urbano favorito. Los toques de piel suave de la parte superior se combinan con un tejido de neopreno supertranspirable y con un brillo perfecto para ofrecer un estilo sencillo. La zona del tobillo de corte bajo y la confección tipo botín mantienen la elegancia. El icónico clip del talón y el logotipo aislado ofrecen el look de principios de los 90 que más te gusta",
+        "id": "63f32d052bd5730008104dae",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/BlqLUlfOO5/1.png"
+        },
+        "nombre": "Nike Air Huarache",
+        "precio": 129.99,
+        "precioOferta": 77.97,
+        "tallas": [
+          "37",
+          "38",
+          "39",
+          "42",
+          "43",
+          "44"
+        ]
+      },
+      {
+        "descripcion": "Da el sí quiero (de nuevo) a unas zapatillas que querrás llevar para el resto de tu vida. Las Nike Air Force 1 Low Retro recuperan los materiales originales y mantienen todo lo que más te gusta: un diseño de piel clásica y la cantidad perfecta de estilo de baloncesto para rendir homenaje a un icono de la moda para el día a día. Ahora, incorporan un cepillo de limpieza para mantener un look impecable",
+        "id": "63f32d5d1ba0750008a052c4",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/7aGqv1PP5f/1.png"
+        },
+        "nombre": "Nike Air More Uptempo 96",
+        "precio": 149.99,
+        "precioOferta": 119.97,
+        "tallas": [
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45"
+        ]
+      },
+      {
+        "descripcion": "Da el sí quiero (de nuevo) a unas zapatillas que querrás llevar para el resto de tu vida. Las Nike Air Force 1 Low Retro recuperan los materiales originales y mantienen todo lo que más te gusta: un diseño de piel clásica y la cantidad perfecta de estilo de baloncesto para rendir homenaje a un icono de la moda para el día a día. Ahora, incorporan un cepillo de limpieza para mantener un look impecable",
+        "id": "63f32e8e2bd5730008104e16",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/4p9pZHJg2p/1.png"
+        },
+        "nombre": "Nike Air Force 1 Low Retro",
+        "precio": 149.99,
+        "precioOferta": 119.97,
+        "tallas": [
+          "37",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45"
+        ]
+      },
+      {
+        "descripcion": "Amortiguación y comodidad, como debería ser cada carrera diaria. Las Nike React Miler 3 ofrecen suavidad cuando los pies pisan el asfalto. Hemos añadido estabilidad en el talón para ofrecer seguridad, y la tracción duradera te ayuda en las rutas cortas y largas",
+        "id": "63f32f712bd5730008104e4f",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/peWHV3HkXW/1.png"
+        },
+        "nombre": "Nike React Miler 3",
+        "precio": 129.99,
+        "precioOferta": 77.97,
+        "tallas": [
+          "40",
+          "41",
+          "42",
+          "43",
+          "46",
+          "47"
+        ]
+      },
+      {
+        "descripcion": "No hay nada más legendario que este modelo. Diseñadas para ser el centro de atención, las Nike Air Force 1 '07 combinan comodidad en el parqué con un estilo fuera de la cancha. La parte superior de piel impecable ofrece un look elegante y moderno, y los logotipos Swoosh brillantes aportan un look casi iridiscente para añadir la cantidad perfecta de brillo. Son un modelo increíble",
+        "id": "63f330d0fbcb7a000882c7e9",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/LZT6MBliGE/1.png"
+        },
+        "nombre": "Nike Air Force 1 07",
+        "precio": null,
+        "precioOferta": 129,
+        "tallas": [
+          "37",
+          "39",
+          "40",
+          "41",
+          "43",
+          "44"
+        ]
+      },
+      {
+        "descripcion": "¿Todo listo para disfrutar de la calidez y la comodidad de tu sudadera con capucha favorita de fin de semana, pero necesitas mantener un look impecable? Esta sudadera con capucha Nike Tech Fleece ofrece el equilibrio perfecto con un diseño ligero de perfil bajo que aporta calor sin añadir volumen. Puedes combinarla fácilmente con otras prendas, tanto al descansar en casa al moverte por la ciudad",
+        "id": "63f32feffbcb7a000882c74a",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/aldpK6DbiJ/1.png"
+        },
+        "nombre": "Nike Sportswear Tech Fleece",
+        "precio": 119.99,
+        "precioOferta": 71.97,
+        "tallas": [
+          "S",
+          "M",
+          "L ",
+          "XL"
+        ]
+      }
+    ]
   },
   {
     "id": "63ee192eb5f4d6000803f5e9",
     "imagen": null,
     "nombre": "Mujer",
-    "productos": []
+    "productos": [
+      {
+        "descripcion": "El running forma parte de tu día a día y te lleva del asfalto a los senderos en busca de aventuras y nuevos objetivos. Las Nike Pegasus Trail 4 te ayudan a llegar donde quieras con sujeción y elasticidad. La tracción en la planta del pie permite recorrer terrenos rocosos y proporciona una pisada suave sobre el asfalto. Este modelo todoterreno con alas es ideal para correr por caminos desconocidos",
+        "id": "63f331db2bd5730008104eb0",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/whoXbpl5ee/1.png"
+        },
+        "nombre": "Nike Pegasus Trail 4",
+        "precio": 129.99,
+        "precioOferta": 77.97,
+        "tallas": [
+          "38",
+          "40",
+          "41",
+          "42",
+          "47"
+        ]
+      },
+      {
+        "descripcion": "Al estilo de los años 70. Aclamadas en los 80. Un clásico de los 90. Listas para el futuro. Las Nike Blazer Mid '77 Vintage ofrecen un diseño atemporal y muy cómodo. La parte superior de piel increíblemente impecable combina perfectamente con un llamativo logotipo retro y unos detalles de ante exquisitos para ofrecer una sensación premium. La espuma expuesta en la lengüeta y el acabado de la mediasuela especial hacen que parezca que han salido de los libros de historia. Adelante, perfecciona tu look",
+        "id": "63f33298e5eda700087a4ef0",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/qYGcVFXbVu/1.png"
+        },
+        "nombre": "Nike Blazer Mid 77 Vintage",
+        "precio": 99.99,
+        "precioOferta": 79.97,
+        "tallas": [
+          "37",
+          "42",
+          "43",
+          "44",
+          "45"
+        ]
+      },
+      {
+        "descripcion": "Las Nike SB Zoom Blazer Mid te ofrecen un lienzo en blanco para que cuentes tu historia. La parte superior es casi completamente blanca para que la tiñas, colorees o dibujes en ella. La amortiguación ligera añade comodidad durante las sesiones de skate más intensas y el patrón de tracción duradero te ayuda a aterrizar tras combinar varios movimientos. Estamos deseando ver tu creación",
+        "id": "63f33386fbcb7a000882c881",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/sGAHE0m2AX/1.png"
+        },
+        "nombre": "Nike SB Zoom Blazer Mid Premium",
+        "precio": 109.99,
+        "precioOferta": 65.97,
+        "tallas": [
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45"
+        ]
+      },
+      {
+        "descripcion": "Este modelo está a la altura de la ocasión. Alabadas por su simplicidad y comodidad clásicas, las Nike Blazer Low Platform elevan este icono del baloncesto. La mediasuela y la suela exterior con elevación te permiten pisar con seguridad, y la parte superior mantiene las proporciones elegantes de las originales",
+        "id": "63f333fde5eda700087a4f83",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/pYtP_rEs3U/1.png"
+        },
+        "nombre": "Nike Blazer Low Platform",
+        "precio": 99.99,
+        "precioOferta": 59.97,
+        "tallas": [
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "43"
+        ]
+      },
+      {
+        "descripcion": "Acorta la distancia entre las carreras de entrenamiento y las competiciones de fin de semana con un diseño duradero que no solo se puede desplegar en la línea de salida de tu carrera favorita, sino también en los días y meses posteriores a tu victoria. Ofrece comodidad y fiabilidad, pero con una sensación de propulsión que te ayudará a sentirte una mayor velocidad y frescura. Este tipo de versatilidad es poco habitual entre las prendas de running. ¿Quién dijo que no podías tenerlo todo?",
+        "id": "63f335a0fbcb7a000882c8f5",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/fdlWNHGg8V/1.png"
+        },
+        "nombre": "Nike Zoom Fly 5",
+        "precio": 159.99,
+        "precioOferta": 111.97,
+        "tallas": [
+          "36",
+          "37",
+          "38",
+          "40",
+          "42",
+          "43"
+        ]
+      },
+      {
+        "descripcion": "Cuando des un par de zancadas con las Nike Alphafly 2, nunca volverás a ver tus zapatillas de competición favoritas del mismo modo. Estos cohetes se han diseñado para reducir tu tiempo personal sin sacrificar la base que necesitas para llegar más lejos. El grueso y ligero sistema de sujeción ofrece comodidad y velocidad en una combinación clásica del running. Disfruta del mayor retorno de energía de todas nuestras zapatillas de competición mientras te esfuerzas por alcanzar tu mejor marca y arrollar a la competencia.",
+        "id": "63f3429afdcc1a000852f4bd",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/nb0h4QjOOE/1.png"
+        },
+        "nombre": "Nike Alphafly 2",
+        "precio": 299.99,
+        "precioOferta": 179.97,
+        "tallas": [
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42"
+        ]
+      },
+      {
+        "descripcion": "Lleva el pasado al futuro con las Nike Air Max 2090. Inspiradas en las icónicas Air Max 90, las 2090 cuentan con amortiguación Nike Air en la planta del pie, que añade una comodidad sin igual, y la parte superior de malla transparente se combina con las características originales y atemporales para ofrecer un look vanguardista.",
+        "id": "63f3491bd95ffd0008bbe4d9",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/YnUEMMrlQg/1.png"
+        },
+        "nombre": "Nike Air Max 2090",
+        "precio": 149.99,
+        "precioOferta": 74.97,
+        "tallas": [
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42"
+        ]
+      },
+      {
+        "descripcion": "Las Nike Free Metcon 4 combinan flexibilidad y estabilidad para aprovechar al máximo tu sesión de entrenamiento. La malla actualizada con patrón gráfico tipo cadena ofrece frescura y flexibilidad al aumentar la velocidad en los ejercicios de agilidad, y la sujeción del mediopié y el talón ofrecen apoyo en las sesiones más intensas con peso.",
+        "id": "63f34c5d13d405000899658a",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/AmOoPmE7zX/1.png"
+        },
+        "nombre": "Nike Free Metcon 4",
+        "precio": 119.99,
+        "precioOferta": 83.97,
+        "tallas": [
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41"
+        ]
+      },
+      {
+        "descripcion": "Diseñadas para recorrer las calles durante todo el día con comodidad y actitud, las Jordan Air 200E mezclan tecnología abierta con materiales duraderos, al tiempo que se mantienen fieles al ADN de la franquicia Jordan. La silueta de perfil bajo se combina con geometría visual y Max Air para ofrecer una pisada elegante y versátil",
+        "id": "63f34f68c19a1b00086f77ed",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/UYwhrj5Wwn/1.png"
+        },
+        "nombre": "Jordan Air 200E",
+        "precio": 134.99,
+        "precioOferta": 67.47,
+        "tallas": [
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40"
+        ]
+      },
+      {
+        "descripcion": "Entra en el campo con el estilo y la funcionalidad atemporales de las Nike Air Max 90 G NRG. Combinan la esencia de las AM90 originales con varias actualizaciones diseñadas específicamente para el green, como el patrón de tracción y un revestimiento fino que mantiene el agua a raya.",
+        "id": "63f3561e2b21720008295e41",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/X4ScAwUwQA/1.png"
+        },
+        "nombre": "Nike Air Max 90 G NRG",
+        "precio": 169.99,
+        "precioOferta": 101.97,
+        "tallas": [
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41"
+        ]
+      },
+      {
+        "descripcion": "Las Nike Quest 4 Premium siguen en busca de la velocidad.Toma las calles gracias a la espuma elevada y a la comodidad amortiguada que combinan con una parte superior ligera para ofrecer una sujeción segura.Los detalles intuitivos hacen de este modelo un básico para el día a día.",
+        "id": "63f35cf3c999690008c9c382",
+        "imagen": {
+          "url": "https://apirocket.imgix.net/0go43j7v/Producto/FHXMLL0e9J/1.png"
+        },
+        "nombre": "Nike Quest 4 Premium",
+        "precio": 74.99,
+        "precioOferta": 52.47,
+        "tallas": [
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40"
+        ]
+      }
+    ]
   }
 ]

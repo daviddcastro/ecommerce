@@ -10,7 +10,7 @@ permalink: "/{{ producto.categoria[0].nombre | slug }}/{{ producto.nombre | slug
 {% block content %}
     <section class="mx-60 mt-20 flex">
         <div class="grid grid-cols-2">
-            <img class="w-[400px] ml-3 mt-3" src="{{ producto.imagen }}" alt="">
+            <img class="w-[400px] ml-3 mt-3" src="{{ producto.imagen.url }}" alt="">
             {% for imagen in producto.galeria %}
                 <img class="w-[400px] ml-3 mt-3" src="{{ imagen }}" alt="">
             {% endfor %}

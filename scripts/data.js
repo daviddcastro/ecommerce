@@ -45,7 +45,32 @@ async function fetchCategorias() {
 
 // TODO: Programar la función para cargar productos
 async function fetchProductos() {
-    return []
+  let query = `query MyQuery {
+    AllProductos {
+      descripcion
+      id
+      nombre
+      imagen {
+        url
+      }
+      precio
+      precioOferta
+      tallas
+      galeria {
+        url
+      }
+      categorias {
+        nombre
+        imagen {
+          url
+        }
+        id
+      }
+    }
+  }
+  `
+    const categories = await fetchApirocket(query)
+    return categories.data['AllProductos']
 }
 
 function guardarDataEnDisco(name, jsonData) {

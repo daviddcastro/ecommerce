@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "data": "" ,
+    "data": "node ./scripts/data.js" ,
     "dev": "run-p dev:*",
     "dev:tailwindcss": "npx tailwindcss -i ./src/css/main.css -o ./dist/main.css --watch",
     "dev:11ty": "npx eleventy --serve",
-    "build": "run-s build:*",
+    "build": "npm run data && run-s build:*", 
     "build:11ty": "npx eleventy",
     "build:tailwindcss": "npx tailwindcss -i ./src/css/main.css -o ./dist/main.css --minify"
   },
