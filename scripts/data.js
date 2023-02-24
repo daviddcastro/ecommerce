@@ -86,6 +86,8 @@ function guardarDataEnDisco(name, jsonData) {
     let productos = await fetchProductos()
     guardarDataEnDisco('productos.json', productos)
 
+    let ofertas = await fetchOfertas()
+    guardarDataEnDisco('ofertas.json', ofertas)
     // En el package.json incluir un script "data" que ejecute esto
     // Y añadir el script al proceso de build
 })()
