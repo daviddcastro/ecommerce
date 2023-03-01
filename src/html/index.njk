@@ -9,8 +9,8 @@
     <p class="font-bold text-3xl text-center mt-20">MEJORES OFERTAS</p>
     <div class="flex justify-around mt-10 space-x-10">
         {% for oferta in ofertas %}
-            <a href="/{{ oferta.categoria | slug }}/{{ oferta.producto | slug }}/" class="bg-[#f5f5f5] rounded-lg">
-                <img src="{{ oferta.imagen }}" class="rounded-lg" alt="">
+            <a href="/{{ oferta.categoria.nombre | slug }}/{{ oferta.producto | slug }}/" class="bg-[#f5f5f5] rounded-lg">
+                <img src="{{ oferta.imagen.url }}" class="rounded-lg" alt="">
                 <div class="p-5">
                     <p class="text-lg">{{ oferta.producto }}</p>
                     <div class="flex text-lg mt-3">

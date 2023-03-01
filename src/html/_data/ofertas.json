@@ -1,0 +1,41 @@
+[
+  {
+    "imagen": {
+      "url": "https://apirocket.imgix.net/0go43j7v/Oferta/HaDhNFGaVI/1.png"
+    },
+    "categoria": [
+      {
+        "nombre": "Hombre"
+      }
+    ],
+    "precio": 99.99,
+    "precioOferta": 59.97,
+    "producto": "Nike Blazer Low Jumbo 77"
+  },
+  {
+    "imagen": {
+      "url": "https://apirocket.imgix.net/0go43j7v/Oferta/CbCubRpq1v/1.png"
+    },
+    "categoria": [
+      {
+        "nombre": "Hombre"
+      }
+    ],
+    "precio": 69.99,
+    "precioOferta": 41.97,
+    "producto": "Nike Wearallday"
+  },
+  {
+    "imagen": {
+      "url": "https://apirocket.imgix.net/0go43j7v/Oferta/QTNliz5Ugi/11.png"
+    },
+    "categoria": [
+      {
+        "nombre": "Hombre"
+      }
+    ],
+    "precio": 159.99,
+    "precioOferta": 119.99,
+    "producto": "Nike Pegasus Turbo Next Nature"
+  }
+]

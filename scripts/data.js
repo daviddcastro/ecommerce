@@ -73,6 +73,25 @@ async function fetchProductos() {
     return categories.data['AllProductos']
 }
 
+async function fetchOfertas() {
+  let query = `query MyQuery {
+    AllOfertas {
+      imagen {
+        url
+      }
+      categoria {
+        nombre
+      }
+      precio
+      precioOferta
+      producto
+    }
+  }  
+  `
+    const categories = await fetchApirocket(query)
+    return categories.data['AllOfertas']
+}
+
 function guardarDataEnDisco(name, jsonData) {
     const filePath = path.join(__dirname, `../src/html/_data/${name}`)
     fs.writeFileSync(filePath, JSON.stringify(jsonData, null, 2))
